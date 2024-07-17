@@ -51,6 +51,12 @@ Make sure you have the following installed:
 - MySQL
 - npm or yarn
 
+### Backend Command
+For backend run this command ` npm start `
+
+### Frontend Command
+For frontend run this command ` npm run dev `
+
 ### Installation
 
 1. Clone the repository:
