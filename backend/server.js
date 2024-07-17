@@ -98,8 +98,6 @@ app.post('/login', (req, res) => {
 
 
 // Example backend route to handle profile updates
-// Example backend route to handle profile updates
-// Example backend route to handle profile updates
 app.put('/profile/:email', upload.single('profileImage'), async (req, res) => {
   const email = req.params.email;
   const { firstName, lastName } = req.body; // Assuming using body parser middleware
@@ -170,16 +168,13 @@ app.put('/profile/remove/:email', async (req, res) => {
 });
 
 
-//email wala kaam
-
-
 // Sending Email to User 
 const sendResetPasswordEmail = (email, token) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user:'areebaamjadareebaamjad@gmail.com',
-      pass:'yttunlkizmnjkrfv'
+      user:'admin-email',
+      pass:'password'
     }
   });
 
@@ -229,9 +224,6 @@ app.post('/forgot-password', (req, res) => {
   });
 });
 
-
-
-// Route to handle password reset
 // Route to handle password reset
 app.post('/reset-password', async (req, res) => {
   const { password, confirmPassword, token } = req.body;
@@ -269,10 +261,6 @@ app.post('/reset-password', async (req, res) => {
     });
   });
 });
-
-
-
-
 
 
 
