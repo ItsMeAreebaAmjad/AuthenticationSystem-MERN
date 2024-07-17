@@ -11,7 +11,7 @@ This project is a full-featured authentication system built using the MERN stack
 ![Login Page](https://github.com/ItsMeAreebaAmjad/AuthenticationSystem-MERN/blob/main/1.png)
 
 ### Profile Page
-![Profile Page](assets/profile.png)
+![Profile Page](https://github.com/ItsMeAreebaAmjad/AuthenticationSystem-MERN/blob/main/5.png)
 
 ### Forgot Password Page
 ![Forgot Password Page](assets/forgot_password.png)
