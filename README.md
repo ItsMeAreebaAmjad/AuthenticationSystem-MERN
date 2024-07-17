@@ -17,7 +17,7 @@ This project is a full-featured authentication system built using the MERN stack
 ![Forgot Password Page](assets/forgot_password.png)
 
 ### Reset Password Page
-![Reset Password Page](assets/reset_password.png)
+![Reset Password Page](https://github.com/ItsMeAreebaAmjad/AuthenticationSystem-MERN/blob/main/4.png)
 
 ## Features
 
