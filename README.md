@@ -41,6 +41,8 @@ This project is a full-featured authentication system built using the MERN stack
 
 ### Others
 - **Nodemailer**: Module for Node.js applications to send email.
+- **JWT**: Json Web Token for authentication.
+- **Bcrypt**: For hashing passwords.
 
 ## Getting Started
 
